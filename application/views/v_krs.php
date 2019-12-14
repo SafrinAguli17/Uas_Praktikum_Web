@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>KRS</title>
+    <title>Daftar Buku</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Produk By Mfikri.com">
     <meta name="author" content="M Fikri Setiadi">

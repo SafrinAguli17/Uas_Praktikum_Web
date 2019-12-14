@@ -6,10 +6,10 @@
   <!--Akses Menu Untuk Admin-->
   <?php if($this->session->userdata('akses')=='1'):?>
       <li class="active"><a href="<?php echo base_url().'index.php/page'?>">Dashboard</a></li>
-      <li><a href="<?php echo base_url().'index.php/page/data_mahasiswa'?>">Data Mahasiswa</a></li>
-      <li><a href="<?php echo base_url().'index.php/page/input_nilai'?>">Input Nilai</a></li>
-      <li><a href="<?php echo base_url().'index.php/page/krs'?>">KRS</a></li>
-      <li><a href="<?php echo base_url().'index.php/page/lhs'?>">LHS</a></li>
+      <li><a href="<?php echo base_url().'index.php/page/data_mahasiswa'?>">Data Anggota</a></li>
+      <li><a href="<?php echo base_url().'index.php/page/input_nilai'?>">Tambah Buku</a></li>
+      <li><a href="<?php echo base_url().'index.php/page/krs'?>">Daftar Buku</a></li>
+      <li><a href="<?php echo base_url().'index.php/page/lhs'?>">Data Pegawai</a></li>
   <!--Akses Menu Untuk Dosen-->
   <?php elseif($this->session->userdata('akses')=='2'):?>
       <li class="active"><a href="<?php echo base_url().'index.php/page'?>">Dashboard</a></li>

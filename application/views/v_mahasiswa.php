@@ -16,7 +16,7 @@
       <?php $this->load->view('menu');?> <!--Include menu-->
       <div class="col-md-12">
         <div class="row">
-          <h2>Data Mahasiswa</h2>
+          <h2>Data Anggota</h2>
           <table class="table table-striped table-bordered">
             <thead>
               <tr>
