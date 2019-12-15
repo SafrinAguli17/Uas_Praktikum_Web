@@ -58,8 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array('database','session');
-
+$autoload['libraries'] = array('Template','database','form_validation','session','pagination','upload');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers
@@ -89,8 +88,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url');
-
+$autoload['helper'] = array('url','form','text','myfunction','html');
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
